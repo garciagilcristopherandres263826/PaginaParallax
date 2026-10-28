@@ -27,7 +27,7 @@
         #layer1 {
             /*Debe de tenerlo cada imagen*/position: absolute;
             z-index: 1;
-            /* El más bajo el del fondo*/
+            /* El más bajo es el del fondo*/
             background-image: url(Img/Garden.webp);
             top: 0;
             left: 0;
@@ -53,7 +53,6 @@
        
         #layer3 {
             position: absolute;
-            /* El más alto */
             z-index: 4;
             top: 0;
             left: 0;
@@ -65,7 +64,6 @@
         #layer4 {
             position: absolute;
             z-index: 5;
-            /* El más alto */
             margin-top: -150px;
             top: 0;
             left: 0;
@@ -142,8 +140,8 @@
             const speed1 = -0.1; // El fondo se mueve más rápido
             const speed2 = 0.2;
             const speed3 = -0.8; // El frente se mueve más lento
-            const speed4 = -0.8; // El frente se mueve más lento
-            const speed5 = 0.2; // El frente se mueve más lento
+            const speed4 = -0.8; 
+            const speed5 = 0.2;
  
              function updateParallax() {
                 // Es para que obtengamos la posición de scroll del elemento contenedor (respecto al top de la ventana)
